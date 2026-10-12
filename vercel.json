@@ -1,6 +1,0 @@
-{
-  "buildCommand": "npm run build",
-  "outputDirectory": "dist/ventanilla/browser",
-  "functions": { "api/**/*.py": { "maxDuration": 10 } },
-  "rewrites": [{ "source": "/api/(.*)", "destination": "/api/index" }, { "source": "/(.*)", "destination": "/index.html" }]
-}
